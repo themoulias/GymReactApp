@@ -1,0 +1,32 @@
+.new-member {
+  background-color: rgba(255, 255, 255, 0.5);
+  justify-content: center;  
+  /* width: fit-content; */
+  /* width: 30rem; */
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  color: rgb(38, 38, 38);
+  padding: 0.15rem;
+  margin: 1rem 0; 
+}
+
+.new-member button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #143c29;
+  background-color: #143c1b;
+  color: white;
+  border-radius: 12px;
+  margin: 1rem;   
+}
+
+.new-member button:hover {
+  background-color: #215f43;
+  border-color: #215f43;
+}
+.new-member button:active {
+  background-color: #0b2318;
+  border-color: #0b2318;
+}

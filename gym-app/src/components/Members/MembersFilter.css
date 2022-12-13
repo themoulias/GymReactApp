@@ -1,0 +1,37 @@
+.members-filter {
+    color: white;      
+  }
+  
+  .members-filter__control {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+   
+  }
+  
+  .members-filter label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .members-filter select {
+    font: inherit;
+    font-weight: bold; 
+    padding: 0.5rem;
+    border-radius: 10px;    
+    width: auto;
+    margin-top: 0.5rem;
+    /* color: white;
+    background-color: #143c29; */
+  }
+
+  .members-filter__form select {
+    font: inherit;    
+    padding: 0.5rem;
+    border-radius: 12px;        
+    width: 10rem;
+    margin-top: 0.rem;
+    color: white;
+    background-color: #143c29;  
+  }

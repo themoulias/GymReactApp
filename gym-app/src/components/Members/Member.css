@@ -1,0 +1,104 @@
+.member {
+  /* display: flex; */  
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem;
+  margin: 1rem 0;  
+  color: white;
+  display:inline-block;
+  
+}
+
+.member__description {   
+  padding: 0.8rem;  
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.55);  
+  color: rgb(38, 38, 38);  
+  display:flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  align-items: flex;
+  flex: 1;
+  width: 30rem;   
+  text-indent: 0.6rem;
+}
+.member-inside__description {    
+  color: rgb(38, 38, 38);  
+  display:flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  align-items: flex;
+  flex: 1;
+  text-indent: -0.2rem;   
+  margin: -2rem 0rem;;  
+}
+.member-inside__description2 {    
+  color: rgb(38, 38, 38);  
+  display:flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  align-items: flex;
+  flex: 1;
+  text-indent: -0.4rem;   
+  margin: -2rem -0.4rem;;  
+}
+.member-inside__description3 {    
+  color: rgb(38, 38, 38);  
+  display:flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  align-items: flex;
+  flex: 1;
+  text-indent: -0.4rem;   
+  margin: -2rem -0.6rem;;  
+}
+
+.member h2 { 
+  color: #143c29
+}
+
+.member-active {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ececec;
+  border-radius: 12px;
+  background-color: #2cac02; 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);   
+  text-indent: 2rem;    
+  margin: 0.5rem 0.5rem;
+  white-space: nowrap;
+}
+
+.member-not-active {
+  width: 20px;
+  height: 20px;    
+  border: 1px solid #ececec;
+  border-radius: 12px;
+  background-color: #d30000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);  
+  text-indent: 2rem;   
+  margin: 0.5rem 0.5rem;   
+  white-space: nowrap;
+}
+
+.member button{
+  font: inherit;
+  cursor: pointer;
+  padding: 0.3rem 1rem;
+  border: 1px solid #143c29;
+  background-color: #143c29;
+  color: white;
+  border-radius: 12px;
+  margin: 0.4rem;     
+}
+
+.member button:hover {
+  background-color: #215f43;
+  border-color: #215f43;
+}
+.member button:active {
+  background-color: #0b2318;
+  border-color: #0b2318;
+}
+

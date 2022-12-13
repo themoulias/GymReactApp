@@ -1,0 +1,26 @@
+.new-member__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;  
+  padding: 1rem 0.5rem;  
+  justify-content: center;  
+  text-align: left;
+  color: rgb(38, 38, 38);
+ }
+
+.new-member__controls label {
+  font-weight: bold;
+  margin-top: 0.5rem;
+  display: block;
+  text-align: left;   
+}
+
+.new-member__controls input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  /* max-width: 100%;   */
+}
+
