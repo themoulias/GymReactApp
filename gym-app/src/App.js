@@ -151,7 +151,7 @@ function App() {
 
   return (
     <div>
-      <h1 className="new-member">Gym Handler</h1>
+      <h1 className="new-member">Gym Members Manager</h1>
       {TitleChange()}     
       <NewMember onAddMember={postRequestHandler} />
       {content}
