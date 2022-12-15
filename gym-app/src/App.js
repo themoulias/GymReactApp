@@ -55,7 +55,8 @@ function App() {
         });
         if (!response.ok) {
           throw new Error("Something went wrong! :( (POST) ");
-        }
+        }   
+        // eslint-disable-next-line     
         const data = await response.json();
       } catch (error) {
         //console.log("POST: ERR = " + error);
@@ -76,6 +77,7 @@ function App() {
         if (!response.ok) {
           throw new Error("Something went wrong! :( (POST) ");
         }
+        // eslint-disable-next-line
         const data = await response.json();
       } catch (error) {
         //console.log("DEL: ERR = " + error);
@@ -109,6 +111,7 @@ function App() {
         if (!response.ok) {
           throw new Error("Something went wrong! :( (PUT) ");
         }
+        // eslint-disable-next-line
         const data = await response.json();
       } catch (error) {
         //console.log("PUT ERR: " + error);

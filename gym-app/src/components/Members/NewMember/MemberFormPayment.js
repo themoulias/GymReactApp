@@ -20,9 +20,7 @@ const MemberFormPayment = ({ handleInputChange, data }) => {
       <label>Payment Date</label>
       <input
         type="Date"
-        name="paymentDate"
-        //min="1920-01-01"
-        //max="2004-12-31"
+        name="paymentDate"       
         value={data.paymentDate}
         onChange={handleInputChange}
       />

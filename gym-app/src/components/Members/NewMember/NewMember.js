@@ -10,18 +10,9 @@ const NewMember = (props) => {
 
   // const saveMemberDataHandler = (enteredMemberData) => {
   const saveMemberDataHandler = (memberData,addressData,membershipData,paymentData) => {
-
     // const memberData = {
     //   ...enteredMemberData,
-    //   id: Math.floor(Math.random() * (10000 - 1 + 1) + 1),     
-      
-    // };
-    // console.log("EDW");
-    // console.log(addressData);
-    // console.log(memberData);
-    // console.log(membershipData);
-    // console.log(paymentData);
-
+    //   id: Math.floor(Math.random() * (10000 - 1 + 1) + 1), 
     // props.onAddMember(memberData);
     props.onAddMember(memberData,addressData,membershipData,paymentData);
     setIsEditing(false);
